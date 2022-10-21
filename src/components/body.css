@@ -1,0 +1,74 @@
+
+/* Home */
+#home {
+  background: linear-gradient(to  top left, #ffffff, #ffffff, #d9dce6,  #f5f5f5, #aadbf4);
+  background: linear-gradient(to  bottom left, #ffffff, #ffffff, #d9dce6,  #a6cfe7, #eff2f4);
+  position: relative;
+  height: 680px;
+  display: flex;
+  color: black;
+}
+
+
+#home p {
+  color: rgb(71, 71, 71);
+  font-size: 14px;
+  padding-top: 10px;
+  margin-top: 10px;
+  font-family: 'Plus Jakarta Sans',sans-serif;
+}
+
+.unique {
+  background: -webkit-linear-gradient(#ec326a, #927fdd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.emtag {
+  color: black;
+}
+.content h1{
+  font-size: 40px;
+}
+.content h2 {
+  font-size: 30px;
+  font-family: 'Plus Jakarta Sans',sans-serif;
+}
+
+.content {
+  text-align: left;
+  margin: 183px 57px;
+}
+.content .book  {
+  font-family: 'Plus Jakarta Sans',sans-serif;
+  background-color: rgb(246, 239, 239);
+  color: rgb(20, 19, 19);
+  text-align: center;
+  margin-top: 15px;
+  border-radius: 8px;
+  height: 40px;
+  width: 110px;
+  padding: 10px;
+
+}
+
+.book:hover {
+color: #ebe1e1;
+background: rgb(6, 6, 6);
+}
+.content .btn {
+  font-family: 'Plus Jakarta Sans',sans-serif;
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+  margin-top: 15px;
+  border-radius: 8px;
+  height: 40px;
+  width: 95px;
+  padding: 10px;
+}
+
+.content .btn:hover {
+  background-color: whitesmoke;
+  color: black;
+}

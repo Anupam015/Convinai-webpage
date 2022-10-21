@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+
+}
+.logo img {
+  height: 50px;
+  margin: 16px 95px;
+  padding: 0px 5px;
+}
+.navbar {
+   
+    min-height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #eef0f4;
+    
+}
+
+
+.title{
+    font-size: 20px; 
+    width: 30%;
+}
+.title a{
+    color: white; 
+    text-decoration:none;
+}
+
+
+.stickynav {
+  
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.stickynav a {
+  font-family: 'Plus Jakarta Sans',sans-serif;
+    color: #151515;
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+
+#stickynav a:hover {
+    cursor: pointer;
+    border-bottom: 1px solid rgb(9, 8, 8);
+}
+
+.dropdown {
+  font-family: 'Plus Jakarta Sans',sans-serif;
+    color: #151515;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.dropdown-content{
+    background: white;
+    display: none;
+    z-index: 105;
+    position: absolute;
+    border-radius: 10px;
+}
+.drop:hover .dropdown-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dropitem {
+    display: inline-block;
+    width: 50%;
+    font-size: 1.2vw;
+    cursor: pointer;
+}
+.dropitem:hover {
+    background: #f2f2ff;
+}
+
+.right{
+    width: 17%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+.right button {
+    background-color: white;
+    color: rgb(9, 8, 8);
+    text-align: center;
+    border-radius: 8px;
+    height: 40px;
+    width: 110px;
+    padding: 10px;
+    font-family: 'Plus Jakarta Sans',sans-serif;
+    
+}
+
+.book:hover {
+  color: #ebe1e1;
+  background: rgb(6, 6, 6);
+}
+.right .login {
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+  border-radius: 8px;
+  height: 40px;
+  width: 95px;
+  padding: 10px;
+  font-weight: 100px;
+  font-family: 'Plus Jakarta Sans',sans-serif;
+}
+.login:hover {
+    color: #0f0e0e;
+    background: rgb(238, 233, 233);
+}
+
+
+.stick {
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+.headroom--unfixed {
+    position: relative;
+    transform: translateY(0);
+  }
+.headroom--scrolled{
+    position: transform 200ms ease-in-out;
+}
+
+.headroom--pinned {
+    position: fixed;
+    transform: translateY(-10%);
+}
